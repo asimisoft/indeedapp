@@ -43,3 +43,5 @@ group :development, :test do
   gem 'spring'
 end
 
+gem 'httparty'
+gem 'indeed_api'

@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  get 'homes/index'
+  resources 'homes', only: [:index]
+  root 'homes#index'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
